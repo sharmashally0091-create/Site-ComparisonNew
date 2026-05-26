@@ -1,0 +1,7 @@
+Broken staging images: []
+Broken live images: []
+Missing sections: []
+Running visual comparison...
+Staging size: 1440 6641
+Live size: 1440 7930
+Mismatch Percentage: 64.45705549699677

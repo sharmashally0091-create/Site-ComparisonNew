@@ -1,0 +1,395 @@
+
+========================================
+OPENING STAGING HOMEPAGE
+========================================
+
+
+========================================
+TOTAL DISCOVERED LINKS
+========================================
+
+[
+  'https://morehartrdsstg.wpenginepowered.com/about/reviews',
+  'https://morehartrdsstg.wpenginepowered.com/specials',
+  'https://morehartrdsstg.wpenginepowered.com',
+  'https://morehartrdsstg.wpenginepowered.com/schedule',
+  'https://morehartrdsstg.wpenginepowered.com/about',
+  'https://morehartrdsstg.wpenginepowered.com/about/gallery',
+  'https://morehartrdsstg.wpenginepowered.com/about/careers',
+  'https://morehartrdsstg.wpenginepowered.com/maintenance-plans',
+  'https://morehartrdsstg.wpenginepowered.com/about/videos',
+  'https://morehartrdsstg.wpenginepowered.com/service-areas',
+  'https://morehartrdsstg.wpenginepowered.com/contact',
+  'https://morehartrdsstg.wpenginepowered.com/hvac-services-phoenix',
+  'https://morehartrdsstg.wpenginepowered.com/emergency-hvac-repair-phoenix',
+  'https://morehartrdsstg.wpenginepowered.com/air-conditioning',
+  'https://morehartrdsstg.wpenginepowered.com/air-conditioning/emergency-ac-repair',
+  'https://morehartrdsstg.wpenginepowered.com/air-conditioning/ac-replacement',
+  'https://morehartrdsstg.wpenginepowered.com/air-conditioning/ac-repair',
+  'https://morehartrdsstg.wpenginepowered.com/air-conditioning/maintenance',
+  'https://morehartrdsstg.wpenginepowered.com/air-conditioning/ductless-mini-splits',
+  'https://morehartrdsstg.wpenginepowered.com/evaporative-cooler-phoenix',
+  'https://morehartrdsstg.wpenginepowered.com/heating',
+  'https://morehartrdsstg.wpenginepowered.com/heating/installation',
+  'https://morehartrdsstg.wpenginepowered.com/heating/maintenance',
+  'https://morehartrdsstg.wpenginepowered.com/heating/repair',
+  'https://morehartrdsstg.wpenginepowered.com/heating/replacement',
+  'https://morehartrdsstg.wpenginepowered.com/heating/furnaces',
+  'https://morehartrdsstg.wpenginepowered.com/heating/furnace-repair',
+  'https://morehartrdsstg.wpenginepowered.com/heating/furnace-replacement',
+  'https://morehartrdsstg.wpenginepowered.com/heating/furnace-maintenance',
+  'https://morehartrdsstg.wpenginepowered.com/heating/heat-pumps',
+  'https://morehartrdsstg.wpenginepowered.com/heating/heat-pump-repair-replacement',
+  'https://morehartrdsstg.wpenginepowered.com/heating/heat-pumps/installation',
+  'https://morehartrdsstg.wpenginepowered.com/air-quality',
+  'https://morehartrdsstg.wpenginepowered.com/air-quality/air-purifiers',
+  'https://morehartrdsstg.wpenginepowered.com/air-quality/air-ducts/cleaning',
+  'https://morehartrdsstg.wpenginepowered.com/air-quality/uv-lights',
+  'https://morehartrdsstg.wpenginepowered.com/air-quality/air-scrubbers-phoenix',
+  'https://morehartrdsstg.wpenginepowered.com/services/insulation/attic',
+  'https://morehartrdsstg.wpenginepowered.com/air-quality/air-ducts',
+  'https://morehartrdsstg.wpenginepowered.com/services/energy-efficiency',
+  'https://morehartrdsstg.wpenginepowered.com/thermostats',
+  'https://morehartrdsstg.wpenginepowered.com/commercial',
+  'https://morehartrdsstg.wpenginepowered.com/commercial/cooling',
+  'https://morehartrdsstg.wpenginepowered.com/commercial/cooling/evaportive-cooler',
+  'https://morehartrdsstg.wpenginepowered.com/commercial/heating',
+  'https://morehartrdsstg.wpenginepowered.com/commercial/construction',
+  'https://morehartrdsstg.wpenginepowered.com/commercial/construction/hvac-installation',
+  'https://morehartrdsstg.wpenginepowered.com/water-heaters',
+  'https://morehartrdsstg.wpenginepowered.com/water-heaters/installation',
+  'https://morehartrdsstg.wpenginepowered.com/water-heaters/repair',
+  'https://morehartrdsstg.wpenginepowered.com/tankless-water-heaters',
+  'https://morehartrdsstg.wpenginepowered.com/water-softeners-in-phoenix-az',
+  'https://morehartrdsstg.wpenginepowered.com/privacy-policy'
+]
+
+========================================
+LIMITED TEST LINKS
+========================================
+
+[
+  'https://morehartrdsstg.wpenginepowered.com/about/reviews',
+  'https://morehartrdsstg.wpenginepowered.com/specials',
+  'https://morehartrdsstg.wpenginepowered.com',
+  'https://morehartrdsstg.wpenginepowered.com/schedule',
+  'https://morehartrdsstg.wpenginepowered.com/about'
+]
+
+========================================
+STARTING COMPARISON
+========================================
+
+
+========================================
+COMPARING PAGE
+========================================
+
+https://morehartrdsstg.wpenginepowered.com/about/reviews
+
+
+
+Comparing Pages:
+STAGING: https://morehartrdsstg.wpenginepowered.com/about/reviews
+LIVE: https://morehartac.com//about/reviews
+
+
+
+VISUAL COMPARISON:
+
+WIDTH: 1440
+HEIGHT: 3825
+
+
+DIFF GENERATED:
+snapshots/diff/morehartrdsstg_wpenginepowered_com_about_reviews.png
+
+Mismatch:
+1.35%
+
+
+
+RESULT:
+URL: https://morehartrdsstg.wpenginepowered.com/about/reviews
+
+Missing Sections:
+0
+
+Broken Staging Images:
+0
+
+Broken Live Images:
+0
+
+Visual Mismatch:
+1.35%
+
+STATUS:
+PASSED
+
+
+
+========================================
+COMPARING PAGE
+========================================
+
+https://morehartrdsstg.wpenginepowered.com/specials
+
+
+
+Comparing Pages:
+STAGING: https://morehartrdsstg.wpenginepowered.com/specials
+LIVE: https://morehartac.com//specials
+
+
+
+VISUAL COMPARISON:
+
+WIDTH: 1440
+HEIGHT: 1244
+
+
+DIFF GENERATED:
+snapshots/diff/morehartrdsstg_wpenginepowered_com_specials.png
+
+Mismatch:
+0.92%
+
+
+
+RESULT:
+URL: https://morehartrdsstg.wpenginepowered.com/specials
+
+Missing Sections:
+0
+
+Broken Staging Images:
+0
+
+Broken Live Images:
+0
+
+Visual Mismatch:
+0.92%
+
+STATUS:
+PASSED
+
+
+
+========================================
+COMPARING PAGE
+========================================
+
+https://morehartrdsstg.wpenginepowered.com
+
+
+
+Comparing Pages:
+STAGING: https://morehartrdsstg.wpenginepowered.com
+LIVE: https://morehartac.com/
+
+
+
+VISUAL COMPARISON:
+
+WIDTH: 1440
+HEIGHT: 6641
+
+
+DIFF GENERATED:
+snapshots/diff/morehartrdsstg_wpenginepowered_com.png
+
+Mismatch:
+30.45%
+
+
+
+RESULT:
+URL: https://morehartrdsstg.wpenginepowered.com
+
+Missing Sections:
+0
+
+Broken Staging Images:
+0
+
+Broken Live Images:
+0
+
+Visual Mismatch:
+30.45%
+
+STATUS:
+FAILED
+
+
+
+========================================
+COMPARING PAGE
+========================================
+
+https://morehartrdsstg.wpenginepowered.com/schedule
+
+
+
+Comparing Pages:
+STAGING: https://morehartrdsstg.wpenginepowered.com/schedule
+LIVE: https://morehartac.com//schedule
+
+
+
+VISUAL COMPARISON:
+
+WIDTH: 1440
+HEIGHT: 2860
+
+
+DIFF GENERATED:
+snapshots/diff/morehartrdsstg_wpenginepowered_com_schedule.png
+
+Mismatch:
+9.59%
+
+
+
+RESULT:
+URL: https://morehartrdsstg.wpenginepowered.com/schedule
+
+Missing Sections:
+0
+
+Broken Staging Images:
+0
+
+Broken Live Images:
+0
+
+Visual Mismatch:
+9.59%
+
+STATUS:
+FAILED
+
+
+
+========================================
+COMPARING PAGE
+========================================
+
+https://morehartrdsstg.wpenginepowered.com/about
+
+
+
+Comparing Pages:
+STAGING: https://morehartrdsstg.wpenginepowered.com/about
+LIVE: https://morehartac.com//about
+
+
+
+VISUAL COMPARISON:
+
+WIDTH: 1440
+HEIGHT: 2306
+
+
+DIFF GENERATED:
+snapshots/diff/morehartrdsstg_wpenginepowered_com_about.png
+
+Mismatch:
+2.03%
+
+
+
+RESULT:
+URL: https://morehartrdsstg.wpenginepowered.com/about
+
+Missing Sections:
+0
+
+Broken Staging Images:
+0
+
+Broken Live Images:
+0
+
+Visual Mismatch:
+2.03%
+
+STATUS:
+FAILED
+
+
+
+========================================
+HTML REPORT GENERATED
+========================================
+
+reports/visual-report/index.html
+
+
+========================================
+FINAL SUMMARY
+========================================
+
+TOTAL:
+5
+
+PASSED:
+2
+
+FAILED:
+3
+
+
+========================================
+FAILED PAGES
+========================================
+
+[
+  {
+    "url": "https://morehartrdsstg.wpenginepowered.com",
+    "passed": false,
+    "visualMismatch": 30.446908096170255,
+    "diffPath": "snapshots/diff/morehartrdsstg_wpenginepowered_com.png",
+    "missingSections": [],
+    "brokenImages": [],
+    "screenshotPathStaging": "snapshots/staging/morehartrdsstg_wpenginepowered_com.png",
+    "screenshotPathLive": "snapshots/live/morehartrdsstg_wpenginepowered_com.png",
+    "screenshotPathDiff": "snapshots/diff/morehartrdsstg_wpenginepowered_com.png"
+  },
+  {
+    "url": "https://morehartrdsstg.wpenginepowered.com/schedule",
+    "passed": false,
+    "visualMismatch": 9.588043900543902,
+    "diffPath": "snapshots/diff/morehartrdsstg_wpenginepowered_com_schedule.png",
+    "missingSections": [],
+    "brokenImages": [],
+    "screenshotPathStaging": "snapshots/staging/morehartrdsstg_wpenginepowered_com_schedule.png",
+    "screenshotPathLive": "snapshots/live/morehartrdsstg_wpenginepowered_com_schedule.png",
+    "screenshotPathDiff": "snapshots/diff/morehartrdsstg_wpenginepowered_com_schedule.png"
+  },
+  {
+    "url": "https://morehartrdsstg.wpenginepowered.com/about",
+    "passed": false,
+    "visualMismatch": 2.032590103112653,
+    "diffPath": "snapshots/diff/morehartrdsstg_wpenginepowered_com_about.png",
+    "missingSections": [],
+    "brokenImages": [],
+    "screenshotPathStaging": "snapshots/staging/morehartrdsstg_wpenginepowered_com_about.png",
+    "screenshotPathLive": "snapshots/live/morehartrdsstg_wpenginepowered_com_about.png",
+    "screenshotPathDiff": "snapshots/diff/morehartrdsstg_wpenginepowered_com_about.png"
+  }
+]
+
+========================================
+HTML REPORT
+========================================
+
+reports/visual-report/index.html
+
+
+========================================
+TEST EXECUTION COMPLETED
+========================================
+

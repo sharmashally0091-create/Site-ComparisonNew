@@ -1,0 +1,6 @@
+buildName: WordPress Comparison Testing
+
+baseBranch: main
+
+branches:
+  - main

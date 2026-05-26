@@ -1,0 +1,383 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: tests\comparison\navigation.spec.ts >> Compare all navigation pages
+- Location: tests\comparison\navigation.spec.ts:19:5
+
+# Error details
+
+```
+Test timeout of 600000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e11]:
+      - generic "24/7 Emergency Service" [ref=e13] [cursor=pointer]:
+        - img "Call to Action Image" [ref=e14]
+        - generic [ref=e15]: 24/7 Emergency Service
+      - generic [ref=e17]:
+        - generic [ref=e18]: 
+        - generic [ref=e19]: 
+        - generic [ref=e20]: 
+        - generic [ref=e21]: 
+        - generic [ref=e22]: 
+        - link "Read Our Reviews " [ref=e23] [cursor=pointer]:
+          - /url: https://morehartrdsstg.wpenginepowered.com/about/reviews/
+          - generic [ref=e24]: Read Our Reviews
+          - generic [ref=e25]: 
+      - link " Coupons & Offers " [ref=e28] [cursor=pointer]:
+        - /url: https://morehartrdsstg.wpenginepowered.com/specials/
+        - generic [ref=e29]: 
+        - generic [ref=e30]: Coupons & Offers
+        - generic [ref=e31]: 
+    - generic [ref=e37]:
+      - generic [ref=e40]:
+        - link "logo" [ref=e42] [cursor=pointer]:
+          - /url: https://morehartrdsstg.wpenginepowered.com
+          - img "logo" [ref=e43]
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - link "602-640-0444" [ref=e47] [cursor=pointer]:
+              - /url: "tel: 602-640-0444"
+            - link " Schedule ONLINE" [ref=e48] [cursor=pointer]:
+              - /url: https://morehartrdsstg.wpenginepowered.com/schedule/
+              - generic [ref=e49]: 
+              - text: Schedule ONLINE
+          - navigation [ref=e54]:
+            - list [ref=e56]:
+              - listitem [ref=e57]:
+                - link "About Us" [ref=e58] [cursor=pointer]:
+                  - /url: /about/
+                  - text: About Us
+                  - generic [ref=e60]: 
+              - listitem [ref=e61]:
+                - link "HVAC" [ref=e62] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/hvac-services-phoenix/
+                  - text: HVAC
+                  - generic [ref=e64]: 
+                - text:     
+              - listitem [ref=e65]:
+                - link "Commercial" [ref=e66] [cursor=pointer]:
+                  - /url: /commercial/
+                  - text: Commercial
+                  - generic [ref=e68]: 
+                - text:  
+              - listitem [ref=e69]:
+                - link "Water Heaters" [ref=e70] [cursor=pointer]:
+                  - /url: /water-heaters/
+                  - text: Water Heaters
+                  - generic [ref=e72]: 
+      - text:                               
+  - main [ref=e73]:
+    - generic [ref=e74]:
+      - heading "Our Blog" [level=1] [ref=e91]
+      - main [ref=e92]:
+        - generic [ref=e101]:
+          - search [ref=e102]:
+            - generic [ref=e103]:
+              - generic [ref=e105]:
+                - button "Center Align" [ref=e107] [cursor=pointer]:
+                  - generic [ref=e108]: 
+                - textbox "SEARCH" [ref=e109]
+              - generic [ref=e111]:
+                - generic [ref=e114] [cursor=pointer]: 
+                - generic [ref=e115]:
+                  - generic [ref=e116] [cursor=pointer]: Categories
+                  - text: 
+          - generic [ref=e117]:
+            - generic [ref=e119]:
+              - link "How Hard Water Damages Plumbing Systems" [ref=e120] [cursor=pointer]:
+                - /url: https://morehartrdsstg.wpenginepowered.com/blog/how-hard-water-damages-plumbing-systems/
+                - img "How Hard Water Damages Plumbing Systems" [ref=e122]
+              - generic [ref=e123]:
+                - link "How Hard Water Damages Plumbing Systems Many homeowners in the Phoenix area have hard water, which is water that contains elevated levels of minerals. While it’s generally safe to drink, it..." [ref=e124] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/how-hard-water-damages-plumbing-systems/
+                  - heading "How Hard Water Damages Plumbing Systems" [level=5] [ref=e125]
+                  - paragraph [ref=e126]: Many homeowners in the Phoenix area have hard water, which is water that contains elevated levels of minerals. While it’s generally safe to drink, it...
+                - link "Keep Reading " [ref=e127] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/how-hard-water-damages-plumbing-systems/
+                  - generic [ref=e128]: Keep Reading
+                  - generic [ref=e129]: 
+            - generic [ref=e131]:
+              - link "Signs Your AC Is Oversized or Undersized" [ref=e132] [cursor=pointer]:
+                - /url: https://morehartrdsstg.wpenginepowered.com/blog/signs-your-ac-is-oversized-or-undersized/
+                - img "Signs Your AC Is Oversized or Undersized" [ref=e134]
+              - generic [ref=e135]:
+                - link "Signs Your AC Is Oversized or Undersized The size of your air conditioner can affect efficiency, performance, comfort, and humidity. Most units are rated in tons or BTUs. If your unit is..." [ref=e136] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/signs-your-ac-is-oversized-or-undersized/
+                  - heading "Signs Your AC Is Oversized or Undersized" [level=5] [ref=e137]
+                  - paragraph [ref=e138]: The size of your air conditioner can affect efficiency, performance, comfort, and humidity. Most units are rated in tons or BTUs. If your unit is...
+                - link "Keep Reading " [ref=e139] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/signs-your-ac-is-oversized-or-undersized/
+                  - generic [ref=e140]: Keep Reading
+                  - generic [ref=e141]: 
+            - generic [ref=e143]:
+              - link "Signs It’s Time to Replace Your Swamp Cooler" [ref=e144] [cursor=pointer]:
+                - /url: https://morehartrdsstg.wpenginepowered.com/blog/signs-its-time-to-replace-your-swamp-cooler/
+                - img "Signs It’s Time to Replace Your Swamp Cooler" [ref=e146]
+              - generic [ref=e147]:
+                - link "Signs It’s Time to Replace Your Swamp Cooler An evaporative cooler, often called a swamp cooler, works by pulling warm air through water-soaked pads to lower the temperature. This method can be an..." [ref=e148] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/signs-its-time-to-replace-your-swamp-cooler/
+                  - heading "Signs It’s Time to Replace Your Swamp Cooler" [level=5] [ref=e149]
+                  - paragraph [ref=e150]: An evaporative cooler, often called a swamp cooler, works by pulling warm air through water-soaked pads to lower the temperature. This method can be an...
+                - link "Keep Reading " [ref=e151] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/signs-its-time-to-replace-your-swamp-cooler/
+                  - generic [ref=e152]: Keep Reading
+                  - generic [ref=e153]: 
+            - generic [ref=e155]:
+              - link "How Long Do Furnaces Last?" [ref=e156] [cursor=pointer]:
+                - /url: https://morehartrdsstg.wpenginepowered.com/blog/how-long-do-furnaces-last/
+                - img "How Long Do Furnaces Last?" [ref=e158]
+              - generic [ref=e159]:
+                - link "How Long Do Furnaces Last? Even in Arizona, cold desert nights have a way of sneaking up on you. You may run your heater for only a few months each..." [ref=e160] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/how-long-do-furnaces-last/
+                  - heading "How Long Do Furnaces Last?" [level=5] [ref=e161]
+                  - paragraph [ref=e162]: Even in Arizona, cold desert nights have a way of sneaking up on you. You may run your heater for only a few months each...
+                - link "Keep Reading " [ref=e163] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/how-long-do-furnaces-last/
+                  - generic [ref=e164]: Keep Reading
+                  - generic [ref=e165]: 
+            - generic [ref=e167]:
+              - link "How Do Tankless Water Heaters Work?" [ref=e168] [cursor=pointer]:
+                - /url: https://morehartrdsstg.wpenginepowered.com/blog/how-do-tankless-water-heaters-work/
+                - img "How Do Tankless Water Heaters Work?" [ref=e170]
+              - generic [ref=e171]:
+                - link "How Do Tankless Water Heaters Work? Are you thinking about upgrading to a tankless water heater in Phoenix or Peoria? More and more homeowners across the Valley are swapping out their..." [ref=e172] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/how-do-tankless-water-heaters-work/
+                  - heading "How Do Tankless Water Heaters Work?" [level=5] [ref=e173]
+                  - paragraph [ref=e174]: Are you thinking about upgrading to a tankless water heater in Phoenix or Peoria? More and more homeowners across the Valley are swapping out their...
+                - link "Keep Reading " [ref=e175] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/how-do-tankless-water-heaters-work/
+                  - generic [ref=e176]: Keep Reading
+                  - generic [ref=e177]: 
+            - generic [ref=e179]:
+              - link "How Much Does Attic Insulation Cost?" [ref=e180] [cursor=pointer]:
+                - /url: https://morehartrdsstg.wpenginepowered.com/blog/attic-insulation-cost/
+                - img "How Much Does Attic Insulation Cost?" [ref=e182]
+              - generic [ref=e183]:
+                - link "How Much Does Attic Insulation Cost? For Arizona homeowners, attic insulation plays an important role in keeping indoor temperatures comfortable and energy bills under control. With long, intense summers and high..." [ref=e184] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/attic-insulation-cost/
+                  - heading "How Much Does Attic Insulation Cost?" [level=5] [ref=e185]
+                  - paragraph [ref=e186]: For Arizona homeowners, attic insulation plays an important role in keeping indoor temperatures comfortable and energy bills under control. With long, intense summers and high...
+                - link "Keep Reading " [ref=e187] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/attic-insulation-cost/
+                  - generic [ref=e188]: Keep Reading
+                  - generic [ref=e189]: 
+            - generic [ref=e191]:
+              - link "Examining the Pros and Cons of Heat Pumps" [ref=e192] [cursor=pointer]:
+                - /url: https://morehartrdsstg.wpenginepowered.com/blog/examining-the-pros-and-cons-of-heat-pumps/
+                - img "Examining the Pros and Cons of Heat Pumps" [ref=e194]
+              - generic [ref=e195]:
+                - link "Examining the Pros and Cons of Heat Pumps If you’re looking for a new HVAC system for your Phoenix, AZ home, you may be considering a heat pump. If you’re unfamiliar with this..." [ref=e196] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/examining-the-pros-and-cons-of-heat-pumps/
+                  - heading "Examining the Pros and Cons of Heat Pumps" [level=5] [ref=e197]
+                  - paragraph [ref=e198]: If you’re looking for a new HVAC system for your Phoenix, AZ home, you may be considering a heat pump. If you’re unfamiliar with this...
+                - link "Keep Reading " [ref=e199] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/examining-the-pros-and-cons-of-heat-pumps/
+                  - generic [ref=e200]: Keep Reading
+                  - generic [ref=e201]: 
+            - generic [ref=e203]:
+              - link "Why Is My AC Not Cooling?" [ref=e204] [cursor=pointer]:
+                - /url: https://morehartrdsstg.wpenginepowered.com/blog/why-is-my-ac-not-cooling/
+                - img "Why Is My AC Not Cooling?" [ref=e206]
+              - generic [ref=e207]:
+                - link "Why Is My AC Not Cooling? Having a home cooling system is a significant benefit when it comes to navigating the hot summer season comfortably. Unfortunately, like any other household appliance,..." [ref=e208] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/why-is-my-ac-not-cooling/
+                  - heading "Why Is My AC Not Cooling?" [level=5] [ref=e209]
+                  - paragraph [ref=e210]: Having a home cooling system is a significant benefit when it comes to navigating the hot summer season comfortably. Unfortunately, like any other household appliance,...
+                - link "Keep Reading " [ref=e211] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/why-is-my-ac-not-cooling/
+                  - generic [ref=e212]: Keep Reading
+                  - generic [ref=e213]: 
+            - generic [ref=e215]:
+              - link "How To Maintain an Air Conditioning System" [ref=e216] [cursor=pointer]:
+                - /url: https://morehartrdsstg.wpenginepowered.com/blog/how-to-maintain-air-conditioning-system/
+                - img "How To Maintain an Air Conditioning System" [ref=e218]
+              - generic [ref=e219]:
+                - link "How To Maintain an Air Conditioning System Summer in Peoria, AZ is brutal. Triple-digit temperatures are the norm. Without functional air conditioners, homes quickly become uninhabitable. Regular AC maintenance is key to..." [ref=e220] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/how-to-maintain-air-conditioning-system/
+                  - heading "How To Maintain an Air Conditioning System" [level=5] [ref=e221]
+                  - paragraph [ref=e222]: Summer in Peoria, AZ is brutal. Triple-digit temperatures are the norm. Without functional air conditioners, homes quickly become uninhabitable. Regular AC maintenance is key to...
+                - link "Keep Reading " [ref=e223] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/how-to-maintain-air-conditioning-system/
+                  - generic [ref=e224]: Keep Reading
+                  - generic [ref=e225]: 
+          - navigation "Posts navigation" [ref=e227]:
+            - list [ref=e228]:
+              - listitem [ref=e229]:
+                - generic [ref=e230]: "1"
+              - listitem [ref=e231]:
+                - link "2" [ref=e232] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/page/2/
+              - listitem [ref=e233]:
+                - link "3" [ref=e234] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/page/3/
+              - listitem [ref=e235]:
+                - generic [ref=e236]: …
+              - listitem [ref=e237]:
+                - link "11" [ref=e238] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/page/11/
+              - listitem [ref=e239]:
+                - link "" [ref=e240] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/blog/page/2/
+                  - generic [ref=e241]: 
+      - generic [ref=e253]:
+        - generic [ref=e254]: Contact Us
+        - generic [ref=e257]:
+          - list [ref=e259]:
+            - listitem [ref=e260]:
+              - generic [ref=e261]:
+                - text: First Name
+                - generic [ref=e262]: "*"
+              - textbox "First Name*" [ref=e264] [cursor=pointer]
+            - listitem [ref=e265]:
+              - generic [ref=e266]:
+                - text: Last Name
+                - generic [ref=e267]: "*"
+              - textbox "Last Name*" [ref=e269] [cursor=pointer]
+            - listitem [ref=e270]:
+              - generic [ref=e271]:
+                - text: Email
+                - generic [ref=e272]: "*"
+              - textbox "Email*" [ref=e274] [cursor=pointer]
+            - listitem [ref=e275]:
+              - generic [ref=e276]:
+                - text: Phone
+                - generic [ref=e277]: "*"
+              - textbox "Phone*" [ref=e279] [cursor=pointer]
+            - listitem [ref=e280]:
+              - generic [ref=e281]: Service Needed
+              - combobox "Service Needed" [ref=e283] [cursor=pointer]:
+                - option "Heating"
+                - option "Cooling"
+                - option "Commercial"
+                - option "Air Quality"
+                - option "Water Heaters"
+                - option "Other"
+            - listitem [ref=e284]:
+              - generic [ref=e285]: Tell Us More
+              - textbox "Tell Us More" [ref=e287] [cursor=pointer]
+            - listitem [ref=e288]:
+              - list [ref=e290]:
+                - listitem [ref=e291]:
+                  - checkbox "I consent to receive marketing text messages from Morehart Air Conditioning & Heating at the phone number provided. Frequency may vary. Message & data rates may apply. Text HELP for assistance, reply STOP to opt out." [ref=e292] [cursor=pointer]
+                  - generic [ref=e293]: I consent to receive marketing text messages from Morehart Air Conditioning & Heating at the phone number provided. Frequency may vary. Message & data rates may apply. Text HELP for assistance, reply STOP to opt out.
+            - listitem [ref=e294]:
+              - list [ref=e296]:
+                - listitem [ref=e297]:
+                  - checkbox "I consent to receive non-marketing text messages from Morehart Air Conditioning & Heating about my order updates, appointment reminders etc. Message & data rates may." [ref=e298] [cursor=pointer]
+                  - generic [ref=e299]: I consent to receive non-marketing text messages from Morehart Air Conditioning & Heating about my order updates, appointment reminders etc. Message & data rates may.
+          - button "Submit" [ref=e302] [cursor=pointer]
+      - main [ref=e305]:
+        - generic [ref=e312]:
+          - img "company-truck" [ref=e315]
+          - generic [ref=e316]:
+            - heading "Elevate Your Arizona Home's Comfort" [level=4] [ref=e317]
+            - heading "Trusted HVAC & Water Heater Services in Phoenix" [level=5] [ref=e318]
+            - generic [ref=e319]:
+              - list [ref=e320]:
+                - listitem [ref=e321]: Air conditioning repairs, replacements, and maintenance
+                - listitem [ref=e322]: Expert heating services for furnaces and heat pumps
+                - listitem [ref=e323]: Indoor air quality solutions for cleaner, healthier air
+                - listitem [ref=e324]: Water heater services for standard and tankless models
+                - listitem [ref=e325]: Top-quality commercial HVAC services for businesses
+              - generic [ref=e326]:
+                - link "learn more " [ref=e327] [cursor=pointer]:
+                  - /url: https://morehartrdsstg.wpenginepowered.com/about/
+                  - text: learn more
+                  - generic [ref=e328]: 
+                - text: 
+  - contentinfo [ref=e329]:
+    - generic [ref=e336]:
+      - generic [ref=e339]:
+        - generic [ref=e340]:
+          - link "logo" [ref=e341] [cursor=pointer]:
+            - /url: https://morehartrdsstg.wpenginepowered.com
+            - img "logo" [ref=e342]
+          - generic [ref=e344]:
+            - generic [ref=e346]: 
+            - link "602-640-0444" [ref=e347] [cursor=pointer]:
+              - /url: "tel: 602-640-0444"
+          - generic [ref=e349]:
+            - generic [ref=e350]:
+              - generic [ref=e351]: 
+              - text: "License:"
+            - generic [ref=e353]: ROC LIC# 280802
+        - generic [ref=e354]:
+          - heading "Quick Links" [level=6] [ref=e355]
+          - generic [ref=e356]:
+            - list [ref=e358]:
+              - listitem [ref=e359]:
+                - link "Air Conditioning" [ref=e360] [cursor=pointer]:
+                  - /url: /air-conditioning/
+              - listitem [ref=e361]:
+                - link "Heating" [ref=e362] [cursor=pointer]:
+                  - /url: /heating/
+              - listitem [ref=e363]:
+                - link "Indoor Air Quality" [ref=e364] [cursor=pointer]:
+                  - /url: /air-quality/
+              - listitem [ref=e365]:
+                - link "Water Heaters" [ref=e366] [cursor=pointer]:
+                  - /url: /water-heaters/
+              - listitem [ref=e367]:
+                - link "Commercial" [ref=e368] [cursor=pointer]:
+                  - /url: /commercial/
+            - list [ref=e370]:
+              - listitem [ref=e371]:
+                - link "About Us" [ref=e372] [cursor=pointer]:
+                  - /url: /about/
+              - listitem [ref=e373]:
+                - link "Careers" [ref=e374] [cursor=pointer]:
+                  - /url: /about/careers/
+              - listitem [ref=e375]:
+                - link "Maintenance Plans" [ref=e376] [cursor=pointer]:
+                  - /url: /maintenance-plans/
+              - listitem [ref=e377]:
+                - link "Service Area" [ref=e378] [cursor=pointer]:
+                  - /url: /service-areas/
+              - listitem [ref=e379]:
+                - link "Specials" [ref=e380] [cursor=pointer]:
+                  - /url: /specials/
+        - generic [ref=e382]:
+          - generic [ref=e383]:
+            - heading "Office location" [level=6] [ref=e384]
+            - paragraph [ref=e385]:
+              - text: 8853 N. 78th Ave.
+              - text: Peoria, AZ 85345
+          - generic [ref=e386]:
+            - generic [ref=e387]: Follow Us
+            - generic [ref=e388]:
+              - link "" [ref=e389] [cursor=pointer]:
+                - /url: https://www.facebook.com/MorehartACandHeating
+                - generic [ref=e390]: 
+              - link "" [ref=e391] [cursor=pointer]:
+                - /url: https://www.instagram.com/morehartacandheating/
+                - generic [ref=e392]: 
+            - link "Contact Us" [ref=e393] [cursor=pointer]:
+              - /url: https://morehartrdsstg.wpenginepowered.com/contact/
+      - generic [ref=e395]:
+        - generic [ref=e396]: 
+        - text: 2026 Morehart Air Conditioning & Heating
+        - generic [ref=e397]: "|"
+        - generic [ref=e398]:
+          - text: Web Design and Internet Marketing by
+          - link "RYNO Strategic Solutions." [ref=e399] [cursor=pointer]:
+            - /url: https://rynoss.com/?utm_source=RYNO+Built+Website&utm_medium=Referral&utm_campaign=Client_Website_Footer_Backlink
+        - generic [ref=e400]: "|"
+        - generic [ref=e401]:
+          - link "Disclaimer" [ref=e402] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e403]: "|"
+          - link "Privacy Policy" [ref=e404] [cursor=pointer]:
+            - /url: https://morehartrdsstg.wpenginepowered.com/privacy-policy/
+      - text:   
+```
