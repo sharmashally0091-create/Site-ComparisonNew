@@ -83,8 +83,17 @@ OPENING STAGING HOMEPAGE
 ========================================
 `);
 
-    await page.goto(
-      ENV.staging,
+    const snapshotEnv =
+  process.env.SNAPSHOT_ENV ||
+  'current';
+
+const targetUrl =
+  snapshotEnv === 'baseline'
+    ? ENV.live
+    : ENV.staging;
+
+await page.goto(
+  targetUrl,
       {
         waitUntil: 'domcontentloaded',
         timeout: 120000,
@@ -111,8 +120,8 @@ OPENING STAGING HOMEPAGE
 
       links =
         await extractNavigationLinks(
-          page,
-          ENV.staging
+         page,
+         targetUrl
         );
 
     } catch (error) {
@@ -160,7 +169,7 @@ NAVIGATION EXTRACTION FAILED
     */
 
     const limitedLinks =
-      links.slice(0, 5);
+      links.slice(0, 10);
 
     /*
     |--------------------------------------------------------------------------
@@ -376,6 +385,8 @@ reports/visual-report/index.html
     |--------------------------------------------------------------------------
     */
 
+    await generateHtmlReport(results);
+    
     console.log(`
 ========================================
 TEST EXECUTION COMPLETED

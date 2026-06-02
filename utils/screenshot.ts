@@ -4,6 +4,8 @@ import path from 'path';
 
 import { Page } from '@playwright/test';
 
+import sharp from 'sharp';
+
 export async function capturePageScreenshot(
   page: Page,
   filePath: string
@@ -51,28 +53,56 @@ export async function capturePageScreenshot(
   |--------------------------------------------------------------------------
   */
 
-  await page.waitForTimeout(3000);
+  // await page.waitForTimeout(3000);
 
-  /*
-  |--------------------------------------------------------------------------
-  | Capture Full Page
-  |--------------------------------------------------------------------------
-  */
+  // /*
+  // |--------------------------------------------------------------------------
+  // | Capture Full Page
+  // |--------------------------------------------------------------------------
+  // */
 
-  await page.screenshot({
+  // await page.screenshot({
 
-    path: filePath,
+  //   path: filePath,
 
-    fullPage: true,
+  //   fullPage: true,
 
-    type: 'png',
+  //   type: 'png',
 
-    animations: 'disabled',
+  //   animations: 'disabled',
 
-    caret: 'hide',
+  //   caret: 'hide',
 
-    scale: 'device',
-  });
+  //   scale: 'css',
+  // });
+
+  const buffer = await page.screenshot({
+
+  fullPage: true,
+
+  type: 'png',
+
+  animations: 'disabled',
+
+  caret: 'hide',
+
+  scale: 'css',
+});
+
+/*
+|--------------------------------------------------------------------------
+| Compress PNG
+|--------------------------------------------------------------------------
+*/
+
+await sharp(buffer)
+
+  .png({
+    quality: 70,
+    compressionLevel: 9,
+  })
+
+  .toFile(filePath);
 }
 
 /*

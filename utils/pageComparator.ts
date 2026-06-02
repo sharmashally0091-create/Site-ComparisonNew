@@ -46,6 +46,16 @@ export async function comparePage(
 
   /*
   |--------------------------------------------------------------------------
+  | Snapshot Environment
+  |--------------------------------------------------------------------------
+  */
+
+  const snapshotEnv =
+    process.env.SNAPSHOT_ENV ||
+    'current';
+
+  /*
+  |--------------------------------------------------------------------------
   | Create Browser Contexts
   |--------------------------------------------------------------------------
   */
@@ -102,9 +112,20 @@ export async function comparePage(
 
     console.log(`
 
-Comparing Pages:
-STAGING: ${stagingUrl}
-LIVE: ${liveUrl}
+========================================
+PAGE COMPARISON
+========================================
+
+STAGING URL:
+${stagingUrl}
+
+LIVE URL:
+${liveUrl}
+
+SNAPSHOT ENV:
+${snapshotEnv}
+
+========================================
 
 `);
 
@@ -200,7 +221,7 @@ LIVE: ${liveUrl}
 
     /*
     |--------------------------------------------------------------------------
-    | Screenshot File Names
+    | Safe Screenshot File Name
     |--------------------------------------------------------------------------
     */
 
@@ -213,41 +234,96 @@ LIVE: ${liveUrl}
     |--------------------------------------------------------------------------
     */
 
-    const stagingPath =
-      `snapshots/staging/${safeName}.png`;
+    const argosPath =
+      `snapshots/argos/${safeName}.png`;
 
-    const livePath =
-      `snapshots/live/${safeName}.png`;
+    const baselinePath =
+      `snapshots/baseline/${safeName}.png`;
+
+    const currentPath =
+      `snapshots/current/${safeName}.png`;
 
     const diffPath =
       `snapshots/diff/${safeName}.png`;
 
     /*
     |--------------------------------------------------------------------------
-    | Capture Screenshots
+    | Capture Baseline Screenshot
     |--------------------------------------------------------------------------
     */
 
-    await capturePageScreenshot(
-      staging,
-      stagingPath
-    );
+    if (
+      snapshotEnv === 'baseline'
+    ) {
 
-    await capturePageScreenshot(
-      live,
-      livePath
-    );
+      console.log(`
+
+========================================
+CAPTURING LIVE BASELINE
+========================================
+
+`);
+
+      await capturePageScreenshot(
+        live,
+        baselinePath
+      );
+
+      /*
+      |--------------------------------------------------------------------------
+      | Copy To Argos Folder
+      |--------------------------------------------------------------------------
+      */
+
+      await capturePageScreenshot(
+        live,
+        argosPath
+      );
+    }
 
     /*
     |--------------------------------------------------------------------------
-    | Visual Comparison
+    | Capture Current Screenshot
+    |--------------------------------------------------------------------------
+    */
+
+    else {
+
+      console.log(`
+
+========================================
+CAPTURING STAGING CURRENT
+========================================
+
+`);
+
+      await capturePageScreenshot(
+        staging,
+        currentPath
+      );
+
+      /*
+      |--------------------------------------------------------------------------
+      | Copy To Argos Folder
+      |--------------------------------------------------------------------------
+      */
+
+      await capturePageScreenshot(
+        staging,
+        argosPath
+      );
+    }
+
+    /*
+    |--------------------------------------------------------------------------
+    | Compare Baseline vs Current
     |--------------------------------------------------------------------------
     */
 
     const visualResult =
       await compareScreenshots(
-        stagingPath,
-        livePath,
+        baselinePath,
+        currentPath,
         diffPath
       );
 
@@ -275,8 +351,12 @@ LIVE: ${liveUrl}
 
     console.log(`
 
-RESULT:
-URL: ${stagingUrl}
+========================================
+RESULT
+========================================
+
+URL:
+${stagingUrl}
 
 Missing Sections:
 ${missingSections.length}
@@ -292,6 +372,11 @@ ${visualResult.mismatchPercentage.toFixed(2)}%
 
 STATUS:
 ${passed ? 'PASSED' : 'FAILED'}
+
+DIFF:
+${diffPath}
+
+========================================
 
 `);
 
@@ -320,10 +405,10 @@ ${passed ? 'PASSED' : 'FAILED'}
       ],
 
       screenshotPathStaging:
-        stagingPath,
+        currentPath,
 
       screenshotPathLive:
-        livePath,
+        baselinePath,
 
       screenshotPathDiff:
         diffPath,
@@ -333,11 +418,17 @@ ${passed ? 'PASSED' : 'FAILED'}
 
     console.log(`
 
-ERROR COMPARING PAGE:
+========================================
+ERROR COMPARING PAGE
+========================================
+
+URL:
 ${stagingUrl}
 
 ERROR:
 ${error.message}
+
+========================================
 
 `);
 

@@ -1,0 +1,991 @@
+
+========================================
+OPENING STAGING HOMEPAGE
+========================================
+
+
+========================================
+TOTAL DISCOVERED LINKS
+========================================
+
+[
+  'https://morehartac.com/about/reviews',
+  'https://morehartac.com/specials',
+  'https://morehartac.com/schedule',
+  'https://morehartac.com/about',
+  'https://morehartac.com/about/gallery',
+  'https://morehartac.com/about/careers',
+  'https://morehartac.com/maintenance-plans',
+  'https://morehartac.com/about/videos',
+  'https://morehartac.com/service-areas',
+  'https://morehartac.com/contact',
+  'https://morehartac.com/hvac-services-phoenix',
+  'https://morehartac.com/emergency-hvac-repair-phoenix',
+  'https://morehartac.com/air-conditioning',
+  'https://morehartac.com/air-conditioning/emergency-ac-repair',
+  'https://morehartac.com/air-conditioning/ac-replacement',
+  'https://morehartac.com/air-conditioning/ac-repair',
+  'https://morehartac.com/air-conditioning/maintenance',
+  'https://morehartac.com/air-conditioning/ductless-mini-splits',
+  'https://morehartac.com/evaporative-cooler-phoenix',
+  'https://morehartac.com/heating',
+  'https://morehartac.com/heating/installation',
+  'https://morehartac.com/heating/maintenance',
+  'https://morehartac.com/heating/repair',
+  'https://morehartac.com/heating/replacement',
+  'https://morehartac.com/heating/furnaces',
+  'https://morehartac.com/heating/furnace-repair',
+  'https://morehartac.com/heating/furnace-replacement',
+  'https://morehartac.com/heating/furnace-maintenance',
+  'https://morehartac.com/heating/heat-pumps',
+  'https://morehartac.com/heating/heat-pump-repair-replacement',
+  'https://morehartac.com/heating/heat-pumps/installation',
+  'https://morehartac.com/air-quality',
+  'https://morehartac.com/air-quality/air-purifiers',
+  'https://morehartac.com/air-quality/air-ducts/cleaning',
+  'https://morehartac.com/air-quality/uv-lights',
+  'https://morehartac.com/air-quality/air-scrubbers-phoenix',
+  'https://morehartac.com/services/insulation/attic',
+  'https://morehartac.com/air-quality/air-ducts',
+  'https://morehartac.com/services/energy-efficiency',
+  'https://morehartac.com/thermostats',
+  'https://morehartac.com/commercial',
+  'https://morehartac.com/commercial/cooling',
+  'https://morehartac.com/commercial/cooling/evaportive-cooler',
+  'https://morehartac.com/commercial/heating',
+  'https://morehartac.com/commercial/construction',
+  'https://morehartac.com/commercial/construction/hvac-installation',
+  'https://morehartac.com/water-heaters',
+  'https://morehartac.com/water-heaters/installation',
+  'https://morehartac.com/water-heaters/repair',
+  'https://morehartac.com/tankless-water-heaters',
+  'https://morehartac.com/water-softeners-in-phoenix-az',
+  'https://morehartac.com/privacy-policy'
+]
+
+========================================
+LIMITED TEST LINKS
+========================================
+
+[
+  'https://morehartac.com/about/reviews',
+  'https://morehartac.com/specials',
+  'https://morehartac.com/schedule',
+  'https://morehartac.com/about',
+  'https://morehartac.com/about/gallery',
+  'https://morehartac.com/about/careers',
+  'https://morehartac.com/maintenance-plans',
+  'https://morehartac.com/about/videos',
+  'https://morehartac.com/service-areas',
+  'https://morehartac.com/contact'
+]
+
+========================================
+STARTING COMPARISON
+========================================
+
+
+========================================
+COMPARING PAGE
+========================================
+
+https://morehartac.com/about/reviews
+
+
+
+========================================
+COMPARING PAGES
+========================================
+
+STAGING:
+https://morehartac.com/about/reviews
+
+LIVE:
+https://morehartac.com/https://morehartac.com/about/reviews
+
+SNAPSHOT ENV:
+baseline
+
+
+
+========================================
+VISUAL COMPARISON
+========================================
+
+WIDTH:
+1440
+
+HEIGHT:
+1496
+
+
+========================================
+DIFF GENERATED
+========================================
+
+snapshots/diff/morehartac_com_about_reviews.png
+
+MISMATCH:
+0.00%
+
+
+
+========================================
+RESULT
+========================================
+
+URL:
+https://morehartac.com/about/reviews
+
+Missing Sections:
+1
+
+Broken Staging Images:
+0
+
+Broken Live Images:
+0
+
+Visual Mismatch:
+0.00%
+
+STATUS:
+FAILED
+
+DIFF:
+snapshots/diff/morehartac_com_about_reviews.png
+
+
+
+========================================
+COMPARING PAGE
+========================================
+
+https://morehartac.com/specials
+
+
+
+========================================
+COMPARING PAGES
+========================================
+
+STAGING:
+https://morehartac.com/specials
+
+LIVE:
+https://morehartac.com/https://morehartac.com/specials
+
+SNAPSHOT ENV:
+baseline
+
+
+
+========================================
+VISUAL COMPARISON
+========================================
+
+WIDTH:
+1440
+
+HEIGHT:
+1496
+
+
+========================================
+DIFF GENERATED
+========================================
+
+snapshots/diff/morehartac_com_specials.png
+
+MISMATCH:
+0.00%
+
+
+
+========================================
+RESULT
+========================================
+
+URL:
+https://morehartac.com/specials
+
+Missing Sections:
+1
+
+Broken Staging Images:
+0
+
+Broken Live Images:
+0
+
+Visual Mismatch:
+0.00%
+
+STATUS:
+FAILED
+
+DIFF:
+snapshots/diff/morehartac_com_specials.png
+
+
+
+========================================
+COMPARING PAGE
+========================================
+
+https://morehartac.com/schedule
+
+
+
+========================================
+COMPARING PAGES
+========================================
+
+STAGING:
+https://morehartac.com/schedule
+
+LIVE:
+https://morehartac.com/https://morehartac.com/schedule
+
+SNAPSHOT ENV:
+baseline
+
+
+
+========================================
+VISUAL COMPARISON
+========================================
+
+WIDTH:
+1440
+
+HEIGHT:
+1496
+
+
+========================================
+DIFF GENERATED
+========================================
+
+snapshots/diff/morehartac_com_schedule.png
+
+MISMATCH:
+0.00%
+
+
+
+========================================
+RESULT
+========================================
+
+URL:
+https://morehartac.com/schedule
+
+Missing Sections:
+1
+
+Broken Staging Images:
+0
+
+Broken Live Images:
+0
+
+Visual Mismatch:
+0.00%
+
+STATUS:
+FAILED
+
+DIFF:
+snapshots/diff/morehartac_com_schedule.png
+
+
+
+========================================
+COMPARING PAGE
+========================================
+
+https://morehartac.com/about
+
+
+
+========================================
+COMPARING PAGES
+========================================
+
+STAGING:
+https://morehartac.com/about
+
+LIVE:
+https://morehartac.com/https://morehartac.com/about
+
+SNAPSHOT ENV:
+baseline
+
+
+
+========================================
+VISUAL COMPARISON
+========================================
+
+WIDTH:
+1440
+
+HEIGHT:
+1496
+
+
+========================================
+DIFF GENERATED
+========================================
+
+snapshots/diff/morehartac_com_about.png
+
+MISMATCH:
+0.00%
+
+
+
+========================================
+RESULT
+========================================
+
+URL:
+https://morehartac.com/about
+
+Missing Sections:
+1
+
+Broken Staging Images:
+0
+
+Broken Live Images:
+0
+
+Visual Mismatch:
+0.00%
+
+STATUS:
+FAILED
+
+DIFF:
+snapshots/diff/morehartac_com_about.png
+
+
+
+========================================
+COMPARING PAGE
+========================================
+
+https://morehartac.com/about/gallery
+
+
+
+========================================
+COMPARING PAGES
+========================================
+
+STAGING:
+https://morehartac.com/about/gallery
+
+LIVE:
+https://morehartac.com/https://morehartac.com/about/gallery
+
+SNAPSHOT ENV:
+baseline
+
+
+
+========================================
+VISUAL COMPARISON
+========================================
+
+WIDTH:
+1440
+
+HEIGHT:
+1496
+
+
+========================================
+DIFF GENERATED
+========================================
+
+snapshots/diff/morehartac_com_about_gallery.png
+
+MISMATCH:
+0.00%
+
+
+
+========================================
+RESULT
+========================================
+
+URL:
+https://morehartac.com/about/gallery
+
+Missing Sections:
+1
+
+Broken Staging Images:
+0
+
+Broken Live Images:
+0
+
+Visual Mismatch:
+0.00%
+
+STATUS:
+FAILED
+
+DIFF:
+snapshots/diff/morehartac_com_about_gallery.png
+
+
+
+========================================
+COMPARING PAGE
+========================================
+
+https://morehartac.com/about/careers
+
+
+
+========================================
+COMPARING PAGES
+========================================
+
+STAGING:
+https://morehartac.com/about/careers
+
+LIVE:
+https://morehartac.com/https://morehartac.com/about/careers
+
+SNAPSHOT ENV:
+baseline
+
+
+
+========================================
+VISUAL COMPARISON
+========================================
+
+WIDTH:
+1440
+
+HEIGHT:
+1496
+
+
+========================================
+DIFF GENERATED
+========================================
+
+snapshots/diff/morehartac_com_about_careers.png
+
+MISMATCH:
+0.00%
+
+
+
+========================================
+RESULT
+========================================
+
+URL:
+https://morehartac.com/about/careers
+
+Missing Sections:
+0
+
+Broken Staging Images:
+0
+
+Broken Live Images:
+0
+
+Visual Mismatch:
+0.00%
+
+STATUS:
+PASSED
+
+DIFF:
+snapshots/diff/morehartac_com_about_careers.png
+
+
+
+========================================
+COMPARING PAGE
+========================================
+
+https://morehartac.com/maintenance-plans
+
+
+
+========================================
+COMPARING PAGES
+========================================
+
+STAGING:
+https://morehartac.com/maintenance-plans
+
+LIVE:
+https://morehartac.com/https://morehartac.com/maintenance-plans
+
+SNAPSHOT ENV:
+baseline
+
+
+
+========================================
+VISUAL COMPARISON
+========================================
+
+WIDTH:
+1440
+
+HEIGHT:
+1496
+
+
+========================================
+DIFF GENERATED
+========================================
+
+snapshots/diff/morehartac_com_maintenance_plans.png
+
+MISMATCH:
+0.00%
+
+
+
+========================================
+RESULT
+========================================
+
+URL:
+https://morehartac.com/maintenance-plans
+
+Missing Sections:
+1
+
+Broken Staging Images:
+0
+
+Broken Live Images:
+0
+
+Visual Mismatch:
+0.00%
+
+STATUS:
+FAILED
+
+DIFF:
+snapshots/diff/morehartac_com_maintenance_plans.png
+
+
+
+========================================
+COMPARING PAGE
+========================================
+
+https://morehartac.com/about/videos
+
+
+
+========================================
+COMPARING PAGES
+========================================
+
+STAGING:
+https://morehartac.com/about/videos
+
+LIVE:
+https://morehartac.com/https://morehartac.com/about/videos
+
+SNAPSHOT ENV:
+baseline
+
+
+
+========================================
+VISUAL COMPARISON
+========================================
+
+WIDTH:
+1440
+
+HEIGHT:
+1496
+
+
+========================================
+DIFF GENERATED
+========================================
+
+snapshots/diff/morehartac_com_about_videos.png
+
+MISMATCH:
+0.00%
+
+
+
+========================================
+RESULT
+========================================
+
+URL:
+https://morehartac.com/about/videos
+
+Missing Sections:
+2
+
+Broken Staging Images:
+0
+
+Broken Live Images:
+0
+
+Visual Mismatch:
+0.00%
+
+STATUS:
+FAILED
+
+DIFF:
+snapshots/diff/morehartac_com_about_videos.png
+
+
+
+========================================
+COMPARING PAGE
+========================================
+
+https://morehartac.com/service-areas
+
+
+
+========================================
+COMPARING PAGES
+========================================
+
+STAGING:
+https://morehartac.com/service-areas
+
+LIVE:
+https://morehartac.com/https://morehartac.com/service-areas
+
+SNAPSHOT ENV:
+baseline
+
+
+
+========================================
+VISUAL COMPARISON
+========================================
+
+WIDTH:
+1440
+
+HEIGHT:
+1496
+
+
+========================================
+DIFF GENERATED
+========================================
+
+snapshots/diff/morehartac_com_service_areas.png
+
+MISMATCH:
+0.00%
+
+
+
+========================================
+RESULT
+========================================
+
+URL:
+https://morehartac.com/service-areas
+
+Missing Sections:
+1
+
+Broken Staging Images:
+0
+
+Broken Live Images:
+0
+
+Visual Mismatch:
+0.00%
+
+STATUS:
+FAILED
+
+DIFF:
+snapshots/diff/morehartac_com_service_areas.png
+
+
+
+========================================
+COMPARING PAGE
+========================================
+
+https://morehartac.com/contact
+
+
+
+========================================
+COMPARING PAGES
+========================================
+
+STAGING:
+https://morehartac.com/contact
+
+LIVE:
+https://morehartac.com/https://morehartac.com/contact
+
+SNAPSHOT ENV:
+baseline
+
+
+
+========================================
+VISUAL COMPARISON
+========================================
+
+WIDTH:
+1440
+
+HEIGHT:
+1496
+
+
+========================================
+DIFF GENERATED
+========================================
+
+snapshots/diff/morehartac_com_contact.png
+
+MISMATCH:
+0.00%
+
+
+
+========================================
+RESULT
+========================================
+
+URL:
+https://morehartac.com/contact
+
+Missing Sections:
+1
+
+Broken Staging Images:
+0
+
+Broken Live Images:
+0
+
+Visual Mismatch:
+0.00%
+
+STATUS:
+FAILED
+
+DIFF:
+snapshots/diff/morehartac_com_contact.png
+
+
+
+========================================
+HTML REPORT GENERATED
+========================================
+
+reports/visual-report.html
+
+
+========================================
+FINAL SUMMARY
+========================================
+
+TOTAL:
+10
+
+PASSED:
+1
+
+FAILED:
+9
+
+
+========================================
+FAILED PAGES
+========================================
+
+[
+  {
+    "url": "https://morehartac.com/about/reviews",
+    "passed": false,
+    "visualMismatch": 0,
+    "diffPath": "snapshots/diff/morehartac_com_about_reviews.png",
+    "missingSections": [
+      {
+        "missingHeading": "Our Reviews"
+      }
+    ],
+    "brokenImages": [],
+    "screenshotPathStaging": "snapshots/baseline/morehartac_com_about_reviews.png",
+    "screenshotPathLive": "snapshots/live/morehartac_com_about_reviews.png",
+    "screenshotPathDiff": "snapshots/diff/morehartac_com_about_reviews.png"
+  },
+  {
+    "url": "https://morehartac.com/specials",
+    "passed": false,
+    "visualMismatch": 0,
+    "diffPath": "snapshots/diff/morehartac_com_specials.png",
+    "missingSections": [
+      {
+        "missingHeading": "Our Promotions"
+      }
+    ],
+    "brokenImages": [],
+    "screenshotPathStaging": "snapshots/baseline/morehartac_com_specials.png",
+    "screenshotPathLive": "snapshots/live/morehartac_com_specials.png",
+    "screenshotPathDiff": "snapshots/diff/morehartac_com_specials.png"
+  },
+  {
+    "url": "https://morehartac.com/schedule",
+    "passed": false,
+    "visualMismatch": 0,
+    "diffPath": "snapshots/diff/morehartac_com_schedule.png",
+    "missingSections": [
+      {
+        "missingHeading": "Schedule Service"
+      }
+    ],
+    "brokenImages": [],
+    "screenshotPathStaging": "snapshots/baseline/morehartac_com_schedule.png",
+    "screenshotPathLive": "snapshots/live/morehartac_com_schedule.png",
+    "screenshotPathDiff": "snapshots/diff/morehartac_com_schedule.png"
+  },
+  {
+    "url": "https://morehartac.com/about",
+    "passed": false,
+    "visualMismatch": 0,
+    "diffPath": "snapshots/diff/morehartac_com_about.png",
+    "missingSections": [
+      {
+        "missingHeading": "About Morehart Air Conditioning & Heating"
+      }
+    ],
+    "brokenImages": [],
+    "screenshotPathStaging": "snapshots/baseline/morehartac_com_about.png",
+    "screenshotPathLive": "snapshots/live/morehartac_com_about.png",
+    "screenshotPathDiff": "snapshots/diff/morehartac_com_about.png"
+  },
+  {
+    "url": "https://morehartac.com/about/gallery",
+    "passed": false,
+    "visualMismatch": 0,
+    "diffPath": "snapshots/diff/morehartac_com_about_gallery.png",
+    "missingSections": [
+      {
+        "missingHeading": "Our Gallery"
+      }
+    ],
+    "brokenImages": [],
+    "screenshotPathStaging": "snapshots/baseline/morehartac_com_about_gallery.png",
+    "screenshotPathLive": "snapshots/live/morehartac_com_about_gallery.png",
+    "screenshotPathDiff": "snapshots/diff/morehartac_com_about_gallery.png"
+  },
+  {
+    "url": "https://morehartac.com/maintenance-plans",
+    "passed": false,
+    "visualMismatch": 0,
+    "diffPath": "snapshots/diff/morehartac_com_maintenance_plans.png",
+    "missingSections": [
+      {
+        "missingHeading": "Preventive HVAC Maintenance Plans"
+      }
+    ],
+    "brokenImages": [],
+    "screenshotPathStaging": "snapshots/baseline/morehartac_com_maintenance_plans.png",
+    "screenshotPathLive": "snapshots/live/morehartac_com_maintenance_plans.png",
+    "screenshotPathDiff": "snapshots/diff/morehartac_com_maintenance_plans.png"
+  },
+  {
+    "url": "https://morehartac.com/about/videos",
+    "passed": false,
+    "visualMismatch": 0,
+    "diffPath": "snapshots/diff/morehartac_com_about_videos.png",
+    "missingSections": [
+      {
+        "missingHeading": "Videos"
+      },
+      {
+        "missingHeading": ""
+      }
+    ],
+    "brokenImages": [],
+    "screenshotPathStaging": "snapshots/baseline/morehartac_com_about_videos.png",
+    "screenshotPathLive": "snapshots/live/morehartac_com_about_videos.png",
+    "screenshotPathDiff": "snapshots/diff/morehartac_com_about_videos.png"
+  },
+  {
+    "url": "https://morehartac.com/service-areas",
+    "passed": false,
+    "visualMismatch": 0,
+    "diffPath": "snapshots/diff/morehartac_com_service_areas.png",
+    "missingSections": [
+      {
+        "missingHeading": "Our Service Area"
+      }
+    ],
+    "brokenImages": [],
+    "screenshotPathStaging": "snapshots/baseline/morehartac_com_service_areas.png",
+    "screenshotPathLive": "snapshots/live/morehartac_com_service_areas.png",
+    "screenshotPathDiff": "snapshots/diff/morehartac_com_service_areas.png"
+  },
+  {
+    "url": "https://morehartac.com/contact",
+    "passed": false,
+    "visualMismatch": 0,
+    "diffPath": "snapshots/diff/morehartac_com_contact.png",
+    "missingSections": [
+      {
+        "missingHeading": "Contact Us Today"
+      }
+    ],
+    "brokenImages": [],
+    "screenshotPathStaging": "snapshots/baseline/morehartac_com_contact.png",
+    "screenshotPathLive": "snapshots/live/morehartac_com_contact.png",
+    "screenshotPathDiff": "snapshots/diff/morehartac_com_contact.png"
+  }
+]
+
+========================================
+HTML REPORT
+========================================
+
+reports/visual-report/index.html
+
+
+========================================
+HTML REPORT GENERATED
+========================================
+
+reports/visual-report.html
+
+
+========================================
+TEST EXECUTION COMPLETED
+========================================
+
